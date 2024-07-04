@@ -1,0 +1,79 @@
+/* Body and Navbar */
+body {
+    padding-top: 70px; /* Adjust according to navbar height */
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #343a40; /* Dark color for brand */
+}
+
+.navbar-nav .nav-link {
+    color: #343a40; /* Dark color for links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Link color on hover */
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 400px; /* Adjust height of carousel images */
+}
+
+/* Quiz Section */
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 5px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Result Modal */
+.modal-content {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.modal-title {
+    font-weight: bold;
+    color: #343a40; /* Dark color for modal title */
+}
+
+/* Feedback Section */
+#feedback-form .form-control {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Dark background color */
+    color: #f8f9fa; /* Light text color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #f8f9fa; /* Light color for footer links */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    color: #007bff; /* Link color on hover */
+}
